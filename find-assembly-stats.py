@@ -33,6 +33,7 @@ for l in reversed(lengths):
     n50 = l
     break
 
+# DON'T DO THIS I KNOW YOU WANT TO BUT IT'S WRONG
 #n50 = statistics.median(lengths)
 
 print("Num.Contigs","Cum.Length","n50",sep='\t')
